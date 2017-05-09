@@ -2,6 +2,8 @@
 
 namespace Onefasteuro\Ytube;
 
+use Requests;
+use Requests_Session;
 
 class Youtube
 {
