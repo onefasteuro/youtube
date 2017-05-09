@@ -1,9 +1,9 @@
 <?php
 
-namespace Ytube;
+namespace Onefasteuro\Ytube;
 
 
-class Ytube
+class Youtube
 {
     private $key;
 
