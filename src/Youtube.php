@@ -43,7 +43,6 @@ class Youtube
 
     public function channelVideos($channel, $query = [])
     {
-        order=date&part=snippet&channelId={channel id here}&maxResults=25&key={YOUR_API_KEY}
         $url = $this->formatUrl('search', $query);
         $url .= '&channelId='.$channel.'&part=snippet&order=date';
         $response = Requests::get($url);
